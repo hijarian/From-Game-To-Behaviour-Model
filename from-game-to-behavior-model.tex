@@ -1,0 +1,30 @@
+\documentclass[a4paper]{report}
+%\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float}
+\usepackage{indentfirst}
+\usepackage[dvips]{graphicx}
+
+\usepackage{fancyvrb,relsize}
+\DefineVerbatimEnvironment{VerbatimCode}{Verbatim}%
+      {fontsize=\relsize{-2}}
+
+\includeonly{prelude,chapter-1,chapter-2}
+
+\title{От компьютерной игры к задаче моделирования поведения}
+\author{Сафронов М. А.}
+\date{Июнь 2010 г.}
+
+\begin{document}
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\include{prelude}
+\include{chapter-1}
+\include{chapter-2}
+\include{chapter-3}
+\include{conclusion}
+
+\end{document}
