@@ -1,0 +1,48 @@
+body {
+  font-family : arial, sans-serif;
+  color : black;
+  }
+
+tr {
+  border-top : 1px dashed black;
+  border-bottom : 1px dashed black ;
+  }
+
+td {
+  border-left : 1px dotted black ;
+  border-right : 1px dotted black;
+  }
+
+pre {
+  font-family : "Courier New", monospace;
+  font-size : smaller;
+  }
+
+.error-individ,
+.error-reality,
+.error-fuzzy,
+.error-default,
+.error-genetic {
+  font-weight : bold;
+  color : #CD0000;
+  }
+  
+.event-individ {
+  background-color : #DBFFD8;
+  }
+  
+.event-reality {
+  background-color : #DBD8FF;
+  }
+
+.event-fuzzy {
+  background-color : #F4FFCC;
+  }
+  
+.event-genetic {
+  background-color : #FFD8F4;
+  }
+
+.event-default {
+  color : #00357F;
+  }

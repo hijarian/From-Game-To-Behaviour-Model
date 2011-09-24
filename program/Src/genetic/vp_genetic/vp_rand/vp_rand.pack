@@ -1,0 +1,20 @@
+/*****************************************************************************
+Gildas Ménier - gildas.menier@univ-ubs.fr
+Laboratoire VALORIA - Université de Bretagne Sud
+Random generator built on 2 Multiple Linear Congr. Generators with high prime numbers merge
+see ACM V.31 J.88, N.6. p42 & P.L'Ecuyer
+******************************************************************************/
+
+#include @"vp_genetic\vp_rand\vp_rand.ph"
+
+% privately used packages
+#include @"pfc\math\math.ph"
+#include @"pfc\time\time.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"vp_genetic\vp_rand\rnd.pro"

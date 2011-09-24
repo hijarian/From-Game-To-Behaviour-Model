@@ -1,0 +1,26 @@
+/*****************************************************************************
+Genetic Algorithm Toolbox
+(c) Gildas Ménier 2006-2007  http://www.arsaniit.com
+V1.3 : Added GenDraw control to spy the GA
+V1.2 : Added a computeFitness scheme to avoid unnecessary fitness computations 
+V1.1 : Changed many parts to conform to 7.02 + faster 
+V1.0 : Brindle scheme (6.3) 
+******************************************************************************/
+#include @"vp_genetic\vp_genetic.ph"
+
+% privately used packages
+#include @"pfc\std\std.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\stream\stream.ph"
+#include @"vp_genetic\vp_rand\vp_rand.ph"
+#include @"pfc\math\math.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"vp_genetic\geneticPopulation.pro"
+#include @"vp_genetic\geneticAlgorithm.pro"
