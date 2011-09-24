@@ -1,0 +1,30 @@
+'From Game to Behaviour Model' is my ongoing scientific work, stalled a bit because of AFCALC. I can explain core premise in two ways.
+First and short way: that article is about writing an automatic solver for the game Princess Maker 2 by GAINAX. :)
+
+ But that's not scientific enough. So, second and long way.
+
+Suppose we have a completely deterministic world, in which any action taken results in well-defined consequences.
+And suppose than in this world exists an active agent, defined by set of numeric characteristics which we will call an agent's "state".
+The world itself consists of static predefined set of actions, each action modifying the agent's state.
+Obviously, we can state the desired state and then state a problem of finding a sequence of actions which will lead an agent from it's initial state to desired state.
+
+So, this work is about solving a problem, in which an agent finds such a sequence by itself, following some mechanism, which we will call "behaviour". Other details are in the paper.
+Mathematical tools by which this problem is solved in my work are genetic algorithm probing a modified Mamdani fuzzy controller.
+
+I wrote initial draft of the paper in the 3rd year of studying in the university and assembled a GUI program for the calculations. Program is written in Visual Prolog 7.1, so it works only in Windows.
+
+Program code and the text of the paper both in the Public Domain according to CC0 license.
+
+--
+STATUS @ 2011.09.24 21:34
+Project made public via GitHub.
+
+TODO:
+1. Rewrite the draft of the paper in English.
+2. Add the prologue to the paper explaining the roots of the work lying deep into Princess Maker.
+3. Decouple the program logic from the interface. Maybe it's already done.
+4. Rewrite the core logic so you can build a library and separate application linked to it.
+
+Estimated work: 40 hours.
+Planned finish: November 2011.
+
